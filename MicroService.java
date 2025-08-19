@@ -27,6 +27,10 @@ public class MicroService {
             } else {
                 System.out.println("The maximum loot is: " + max_b);
             }
+            System.out.println("After updating the array elements: ");
+            arr[0] = max_a;
+            arr[1] = max_b;
+            System.out.println(arr[0] + " " + arr[1]);
         }
     }
 }
